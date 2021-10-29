@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>El norte combate</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---position-->
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="title" content="El norte combate">
+        <link rel="icon" type="image/png" href="image/icon.png" sizes="60x60">
+        <!---Css-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Merriweather+Sans&display=swap" rel="stylesheet">
+        <!---fontawesome-->
+        <script src="https://kit.fontawesome.com/e88062d056.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header id="navbar">
+            <div class="container">
+                <figure>
+                    <img src="image/Logo.png" alt="Logo" id="logo" width="100px" height="100px">
+                </figure>
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Productos</button>
+                                <div class="dropdown-content">
+                                    <a href="#">Combate</a>
+                                    <a href="#">Fitness</a>
+                                    <a href="#">Geles y proteínas</a>
+                                    <a href="#">Ropa</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="about.html">Sobre nosotros</a>
+                        </li>
+                        <li>
+                            <a href="promos.html">Promos</a>
+                        </li>
+                        <li>
+                            <a href="#form">Contáctanos</a>
+                        </li>
+                    </ul>
+                    
+                </nav>  
+            </div>
+        </header>
+        <section>
+            <div class="hero">
+                <hero>
+                    <img src="image/hero1.png" alt="hero" width="100%" height="auto">
+                </hero>
+            </div>
+        </section>
+        <h1>Productos</h1>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')">Todos los Productos</button>
+            <button class="btn" onclick="filterSelection('combate')" id="combate">Combate</button>
+            <button class="btn" onclick="filterSelection('fitness')" id="fitness">Fitness</button>
+            <button class="btn" onclick="filterSelection('geles')" id="geles">Geles y proteinas</button>
+            <button class="btn" onclick="filterSelection('ropa')" id="ropa">Ropa</button>
+        </div>
+
+        <section class="filter">
+            <div class="container">
+                <div class="filterDiv combate">
+                    <img src="image/bolsafitness770.png" alt="bolsa fitness" width="275px" height="150px">
+                    <h4>Bolsa 770 fitenss 90cm</h4>
+                    <p>Ar$ 2.600</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/bolsaOrtiz120.png" alt="bolsa Ortiz" width="275px" height="200px">
+                    <h4>Bolsa Ortiz 120cm</h4>
+                    <p>Ar$ 3.300</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/bolsaRandori120.png" alt="bolsa Randori" width="75px" height="200px">
+                    <h4>Bolsa Ortiz 120cm</h4>
+                    <p>Ar$ 3.400</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/bolsaBronx90.png" alt="bolsa bronx" width="150px" height="200px">
+                    <h4>Bolsa Bronx 90cm</h4>
+                    <p>Ar$ 3.200</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/bolsaOrtiz120.png" alt="Bolsa Ortiz" width="275px" height="200px">
+                    <h4>Bolsa Ortiz 90cm</h4>
+                    <p>Ar$ 3.000</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/bolsaPugil90.png" alt="Bolsa Pugil" width="200px" height="200px">
+                    <h4>Bolsas Pugil 90cm Rellena</h4>
+                    <p>Ar$ 4.500</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/bolsaRandori75.png" alt="Bolsa Randori" width="200px" height="200px">
+                    <h4>Bolsa Randori 75cm</h4>
+                    <p>Ar$ 2.500</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/bucalArg.png" alt="Bucales Argentina" width="200px" height="200px">
+                    <h4>Bucales Argentina</h4>
+                    <p>Ar$ 600</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/bucalC.png" alt="Bucales comunes" width="200px" height="200px">
+                    <h4>Bucales comunes</h4>
+                    <p>Ar$ 350</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/bucalDragons.png" alt="Bucales dragons" width="200px" height="200px">
+                    <h4>Bucales Dragons</h4>
+                    <p>Ar$ 800</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/cabezal.png" alt="Cabezales cuero" width="200px" height="200px">
+                    <h4>Cabezales Cuero Sintético Ortiz</h4>
+                    <p>Ar$ 2.800</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/cabezalPVCOrtiz.png" alt="Cabezalez pvc Ortiz" width="200px" height="200px">
+                    <h4>Cabezales PVC Ortiz</h4>
+                    <p>Ar$ 2.100</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/cadenaMeli.png" alt="Cadena Meli" width="200px" height="200px">
+                    <h4>Cadena Meli</h4>
+                    <p>Ar$ 1.200</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/cadenaRandori.png" alt="Cadenas Randori" width="200px" height="200px">
+                    <h4>Cadenas Randori</h4>
+                    <p>Ar$ 1.200</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/cieloTierraCuero.png" alt="Cielo Tierra Cuero" width="100px" height="200px">
+                    <h4>Cielo Tierra Cuero Ortiz</h4>
+                    <p>Ar$ 3.500</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/cieloTierraPvc.png" alt="Cielo Tierra PVC" width="250px" height="200px">
+                    <h4>Cielo Tierra PVC Ortiz</h4>
+                    <p>Ar$ 3.000</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/colchonetaRandori.png" alt="Colchoneta Randori" width="200px" height="200px">
+                    <h4>Colchoneta Randori A.D.</h4>
+                    <p>Ar$ 2.200</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/colchonetaDensidadMedia.png" alt="colchoneta Densidad Media" width="200px" height="200px">
+                    <h4>Colchoneta Densidad Media</h4>
+                    <p>Ar$ 1.200</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/corebag.png" alt="corebag" width="275px" height="200px">
+                    <h4>Corebag 5kg</h4>
+                    <p>Ar$ 2.600</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/bandaLatex.png" alt="Banda de bandaLatex" width="200px" height="200px">
+                    <h4>Banda de Latex</h4>
+                    <p>Ar$ 600</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/enaCitrus.png" alt="ENA Citrus" width="200px" height="200px">
+                    <h4>ENA Citrus con cafeína</h4>
+                    <p>Ar$ 100</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/enaLimon.png" alt="ENA Limon" width="200px" height="200px">
+                    <h4>ENA Limón sin cafeína</h4>
+                    <p>Ar$ 100</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/enaUva.png" alt="ENA uva" width="200px" height="200px">
+                    <h4>ENA Uva con cafeína</h4>
+                    <p>Ar$ 100</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/enaVainillaBean.png" alt="ENA vainilla" width="200px" height="200px">
+                    <h4>ENA Vainilla Bean sin cafeína</h4>
+                    <p>Ar$ 100</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/escudoRandori.png" alt="escudo Randori" width="150px" height="200px">
+                    <h4>Escudo Randori</h4>
+                    <p>Ar$ 4.200</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/enaVainillaC.png" alt="Gel vainilla" width="200px" height="200px">
+                    <h4>Gel ENA Vainilla Bean con cafeína</h4>
+                    <p>Ar$ 100</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/gelIronBanana.png" alt="Gel Iron Banana" width="200px" height="200px">
+                    <h4>Gel Iron Banana sin cafeína</h4>
+                    <p>Ar$ 80</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/gelIironFrutilla.png" alt="Gel Iron frutilla" width="200px" height="200px">
+                    <h4>Gel Iron Frutilla sin cafeína</h4>
+                    <p>Ar$ 80</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/gelIronLima.png" alt="Gel iron lima" width="150px" height="200px">
+                    <h4>Gel Iron Lima Limón con cafeína</h4>
+                    <p>Ar$ 80</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/gelIronFrutos.png" alt="Gel Iron Frutos" width="200px" height="200px">
+                    <h4>Gel Iron Frutos del Bosque con cafeína</h4>
+                    <p>Ar$ 80</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/gelironlimon.png" alt="gel iron limon" width="200px" height="200px">
+                    <h4>Gel Iron Limón sin Cafeína</h4>
+                    <p>Ar$ 80</p>
+                </div>
+                <div class="filterDiv geles">
+                    <img src="image/gelIronVainilla.png" alt="gel iron vainilla" width="200px" height="200px">
+                    <h4>Gel Iron Vainilla sin Cafeína</h4>
+                    <p>Ar$ 80</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guantesBronx12.png" alt="guantes bronx 12" width="200px" height="200px">
+                    <h4>Guantes Bronx 12 Onzas</h4>
+                    <p>Ar$ 2.960</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guantesBronx14.png" alt="Guantes Bronx 14" width="200px" height="200px">
+                    <h4>Guantes Bronx 14 Onzas</h4>
+                    <p>Ar$ 2.960</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guanteDragons12.png" alt="guantes dragons 12" width="250px" height="200px">
+                    <h4>Guantes Dragons 12 Onzas Dorado y Plata</h4>
+                    <p>Ar$ 5.500</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guantesDragons14.png" alt="guantes dragons calavera 14" width="250px" height="200px">
+                    <h4>Guantes Dragons Calavera Blanca 14 OZ</h4>
+                    <p>Ar$ 5.500</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guanteDragonsClassic12.png" alt="Guantes dragons clasic" width="250px" height="200px">
+                    <h4>Guantes Dragons Classic 12 OZ</h4>
+                    <p>Ar$ 4.500</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guanteDragonsClassic14.png" alt="guanteDragonsCalavera14" width="250px" height="200px">
+                    <h4>Guantes Dragons Classic 14</h4>
+                    <p>Ar$ 4.500</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guanteFocoRandori.png" alt="Guantes foco randori" width="200px" height="200px">
+                    <h4>Guantes Foco Randori Cuadrados</h4>
+                    <p>Ar$ 1.700</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guantesFocoOrtiz.png" alt="guantes foco ortiz" width="200px" height="200px">
+                    <h4>Guantes Foco Ortiz</h4>
+                    <p>Ar$ 2.500</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guantesJuniorRandori.png" alt="guantes junior randori" width="200px" height="200px">
+                    <h4>Guantes Junior Randori</h4>
+                    <p>Ar$ 2.000</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guantesJuniorBronx.png" alt="guantes junior bronx" width="200px" height="200px">
+                    <h4>Guantes Junior Bronx</h4>
+                    <p>Ar$ 2.000</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guanteOrtiz12.png" alt="guantes ortiz 12" width="200px" height="200px">
+                    <h4>Guantes Ortiz 12 Onzas CS.</h4>
+                    <p>Ar$ 2.600</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guantesOrtiz14.png" alt="guantes Ortiz 14" width="200px" height="200px">
+                    <h4>Guantes Ortiz 14 Onzas CS. Negro</h4>
+                    <p>Ar$ 2.600</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guanteOrtiz14Pvc.png" alt="guantes ortiz 14 pvc" width="250px" height="200px">
+                    <h4>Guantes Ortiz 14 OZ PVC Rojo, Negro, Azul</h4>
+                    <p>Ar$ 2.300</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guantesOrtiz16Pvc.png" alt="guantes ortiz pvc 16" width="200px" height="200px">
+                    <h4>Guantes Ortiz PVC 16 OZ Azul</h4>
+                    <p>Ar$ 2.300</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/guantinesRandori.png" alt="guantes randori t3" width="200px" height="200px">
+                    <h4>Guantines Randori T.3</h4>
+                    <p>Ar$ 1.700</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/kettlebell.png" alt="kettlebell" width="150px" height="200px">
+                    <h4>Kettlebell 4kg</h4>
+                    <p>Ar$ 1.200</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/mancuerna.png" alt="mancuernas" width="200px" height="200px">
+                    <h4>Mancuernas 2kg</h4>
+                    <p>Ar$ 1.100</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/mosqueton.png" alt="mosqueton" width="200px" height="200px">
+                    <h4>Mosqueton para cadena</h4>
+                    <p>Ar$ 700</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/palmetaBronx.png" alt="palmetasBronx" width="200px" height="200px">
+                    <h4>Palmetas Bronx</h4>
+                    <p>Ar$ 2.600</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/peritaBronx.png" alt="perita bronx" width="150px" height="200px">
+                    <h4>Perita Bronx</h4>
+                    <p>Ar$ 2.500</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/punchingball.png" alt="punchingball" width="100px" height="200px">
+                    <h4>Punchingball Ortiz PVC</h4>
+                    <p>Ar$ 2.500</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/rueda.png" alt="Rueda abdominal doble" width="200px" height="200px">
+                    <h4>Rueda Abdominal Doble</h4>
+                    <p>Ar$ 1.000</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/ruedaSimple.png" alt="ruedaAbdominalSimple" width="250px" height="200px">
+                    <h4>Rueda Abdominal Simple</h4>
+                    <p>Ar$ 650</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/sogaAcero.png" alt="soga acero" width="200px" height="200px">
+                    <h4>Soga de Acero con Ruleman</h4>
+                    <p>Ar$ 1.000</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/sogaNegra.png" alt="soga negra" width="200px" height="200px">
+                    <h4>Soga Negra</h4>
+                    <p>Ar$ 450</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/sogaRosada.png" alt="Soga Rosada" width="200px" height="200px">
+                    <h4>Soga Rosada con Ruleman</h4>
+                    <p>Ar$ 700</p>
+                </div>
+                <div class="filterDiv combate fitness">
+                    <img src="image/soportePared.png" alt="soporte pared" width="200px" height="200px">
+                    <h4>Soporte Pared</h4>
+                    <p>Ar$ 1.500</p>
+                </div>
+                <div class="filterDiv combate fitness">
+                    <img src="image/soporteTecho.png" alt="soporte techo" width="200px" height="200px">
+                    <h4>Soporte Techo Bronx</h4>
+                    <p>Ar$ </p>
+                </div>
+                <div class="filterDiv ropa">
+                    <img src="image/sudadera.png" alt="sudadera" width="200px" height="200px">
+                    <h4>Sudadera Negra Canelo t.l.</h4>
+                    <p>Ar$ 3.360</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/tibialiesBronx.png" alt="tibialesBronx" width="200px" height="200px">
+                    <h4>Tibiales Bronx</h4>
+                    <p>Ar$ 3.780</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/tibialesDragons.png" alt="tibialesDragons" width="200px" height="200px">
+                    <h4>Tibiales Dragons</h4>
+                    <p>Ar$ 4.350</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/tibialesDragonsPro.png" alt="tibialesDragonsPro" width="200px" height="200px">
+                    <h4>Tibiales Dragons Pro</h4>
+                    <p>Ar$ 4.700</p>
+                </div>
+                <div class="filterDiv combate">
+                    <img src="image/tibialesRandori.png" alt="tibiales randori" width="200px" height="200px">
+                    <h4>Tibiales Randori</h4>
+                    <p>Ar$ 2.100</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/tobilleraRandori.png" alt="tobilleras" width="200px" height="200px">
+                    <h4>Tobilleras 2kg Randori Par</h4>
+                    <p>Ar$ 950</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/vendasBronx.png" alt="vendas" width="250px" height="200px">
+                    <h4>Vendas Bronx 3,5</h4>
+                    <p>Ar$ 1.190</p>
+                </div>
+                <div class="filterDiv fitness">
+                    <img src="image/guantines .png" alt="guantinesOrtiz" width="200px" height="200px">
+                    <h4>Guantines Ortiz T.1</h4>
+                    <p>Ar$ 1.700</p>
+                </div>
+            </div>
+        </section>    
+        <footer class="footer">
+            <div class="container">
+                <div>
+                    <img src="image/Logo.png" alt="Logo" class="logo" width="90px" height="90px">
+                </div>
+            </div>
+        </footer>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

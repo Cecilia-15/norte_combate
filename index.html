@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>El norte combate</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---position-->
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="title" content="El norte combate">
+        <link rel="icon" type="image/png" href="image/icon.png" sizes="60x60">
+        <!---Css-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Merriweather+Sans&display=swap" rel="stylesheet">
+
+        <!---fontawesome-->
+        <script src="https://kit.fontawesome.com/e88062d056.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header id="navbar">
+            <div class="container">
+                <figure>
+                    <img src="image/Logo.png" alt="Logo" id="logo" width="100px" height="100px">
+                </figure>
+                <nav >
+                    <ul class="menu">
+                        <div class="topnav" id="myTopnav">
+                            <li>
+                                <a href="index.html" class="active">Home</a>
+                            </li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Productos</button>
+                                    <div class="dropdown-content">
+                                        <a href="products.html #combate">Combate</a>
+                                        <a href="products.html #fitness">Fitness</a>
+                                        <a href="products.html #geles">Geles y proteínas</a>
+                                        <a href="products.html #ropa">Ropa</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="about.html">Sobre nosotros</a>
+                            </li>
+                            <li>
+                                <a href="promos.html">Promos</a>
+                            </li>
+                            <li>
+                                <a href="#form">Contáctanos</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" class="icon" onclick="myFuncion()"><i class="fa fa-bars"></i></a>
+                            </li>
+                        </div>
+                    </ul>
+                    
+                </nav>  
+            </div>
+        </header>
+        <section>
+            <div class="hero">
+                <hero>
+                    <img src="image/hero1.png" alt="hero" width="100%" height="auto">
+                </hero>
+            </div>
+        </section>
+        <div>
+            <h2 style="text-align: center;">Productos</h2>
+        </div>
+        <section class="products-list">
+            <div class="container1">
+                <div class="products">
+                    <img src="image/combate.JPG" alt="combate" class="image" width="478px">
+                    <div class="name_products">
+                        <div class="text">
+                            <a href="products.html #combate">Combate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <img src="image/fitness.jpg" alt="fitness" class="image">
+                    <div class="name_products">
+                        <div class="text">
+                            <a href="products.html #fitness">Fitness</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <img src="image/gelespro.jpg" alt="geles y proteinas" class="image">
+                    <div class="name_products">
+                        <div class="text">
+                            <a href="products.html #geles">Geles y <br> Proteínas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <img src="image/ropa.jpg" alt="ropa" class="image">
+                    <div class="name_products">
+                        <div class="text">
+                            <a href="products.html #ropa">Ropa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div>
+            <h2 style="text-align: center;">Más vendidos</h2>
+        </div>
+        <section class="sales">
+            <div class="container">
+                <div>
+                    <img src="image/guantes.png" alt="Guantes" width="300px" height="300px">
+                    <div class="description">
+                        <h4 >Guantes Ortiz <br>Cuero Sintético</h4>
+                        <p>Ar$ 2.600</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="image/bolsa.png" alt="Bolsa" width="300px" height="300px">
+                    <div class="description">
+                        <h4>Bolsa Randori 90cm</h4>
+                        <p>precio 5$</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="image/cabezal.png" alt="Cabezal" width="300px" height="300px">
+                    <div class="description">
+                        <h4>Cabezales Ortiz PVC</h4>
+                        <p>precio 5$</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="image/guantines .png" alt="Cabezal" width="300px" height="300px">
+                    <div class="description">
+                        <h4>Guantines Ortiz</h4>
+                        <p>Ar$ 1700</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container" id="form">
+                <div class="form">
+                    <form action="" name="form" method="get">
+                    <label for="fname">Nombre:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <textarea name="message" rows="10" cols="30"></textarea><br><br>
+                        <button id="btn" class="button">Enviar</button>
+                    </form>
+                </div>
+                <div class="iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.728623394126!2d-59.64578465039791!3d-29.143193796813204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944eba90bedf3e01%3A0x94bebc77c0a9ac2f!2sIturraspe%2C%20S3560%20Reconquista%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1635003503524!5m2!1ses-419!2sar" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+                </div>
+                <div class="social">
+                    <form action="/suscripcion/" class="form_email">
+                        <label for="email">Quiero recibir los catálogos!</label>
+                        <br><br>
+                        <input type="text" placeholder="Déjame tu email" id="email"><br><br>
+                        <button class="button">Suscribirme!</button>
+                    </form>
+                    <div class="social_network">
+                        <p>Búscanos en </p>
+                        <a href="https://www.instagram.com/norte_combate/" target="_blank" ><i class="fab fa-instagram"></i></i></a>
+                        <a href="https://www.facebook.com/elnortecombate" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div>
+                    <img src="image/Logo.png" alt="Logo" class="logo" width="90px" height="90px">
+                </div>
+            </div>
+        </footer>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
